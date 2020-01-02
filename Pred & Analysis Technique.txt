@@ -1,0 +1,12 @@
+##LSTM
+
+Time series forecasting using LSTM i.e Long Short Time Memory.
+LSTM is used for sequence prediction problems.
+LSTM is used because it is able to store past important information and information that is not needed is not loaded in future Models.
+LSTM has used three gates:
+
+The input gate: The input gate adds information to the cell state
+The forget gate: It removes the information that is no longer required by the model
+The output gate: Output Gate at LSTM selects the information to be shown as output
+
+Although being an extension of Recurrent Neural Network it still can be derived into purely analytical and statistical study. Open source Library are used like Keras, but the defenitive analysis can be mathematicall programmed as an alternate for numerical and text prediction
